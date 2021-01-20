@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -58,3 +59,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.5'
+
+gem 'shrine', '~> 2.8'
+gem 'fastimage', '~> 2.1', '>= 2.1.1'
+gem 'image_processing', '~> 0.4.5'
+gem "mini_magick", ">= 4.3.5"
