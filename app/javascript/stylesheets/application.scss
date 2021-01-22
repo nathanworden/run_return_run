@@ -9,8 +9,8 @@ $black: black;
         background: $black;
 }
 body {
-        background: $black;
-        color: $white;
+        // background: $black;
+        color: $black;
         font-family: 'Merriweather', sans-serif;
 }
 h1,
@@ -19,7 +19,7 @@ h2 {
 }
 p {
         font-size: 16px;
-        color: $white;
+        color: $black;
 }
 a:visited {
         color: $black;
@@ -37,9 +37,10 @@ a:visited {
         color: $white;
 }
 .btn-primary {
-        color: $white;
+        color: #0048CD;
         border-color: $white;
         margin-bottom: 5px;
+        // background-color: #0048CD;
 }
 .btn-sm {
         background-color: $white;
@@ -47,7 +48,7 @@ a:visited {
 }
 
 .dropdown-menu {
-        background-color: orange;
+        background-color: #0048CD
 }
 
 img,
