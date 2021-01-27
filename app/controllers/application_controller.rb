@@ -9,4 +9,7 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:account_update, keys: [:first_name, :last_name, :email, :password, :current_password, :image, :image_cache, :remove_image])
   end
 
+  def after_sign_in_path_for(admin)
+    admin_root_path
+  end
 end
